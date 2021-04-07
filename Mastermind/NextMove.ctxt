@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=NextMove
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ NextMove\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=gametype\ proc\ wold
+comment1.target=NextMove(int,\ Proctor,\ greenfoot.World)
+comment2.params=
+comment2.target=Key\ selectKey()
+comment3.params=input
+comment3.target=boolean\ checkSelectKey(Key)
+comment3.text=\r\n\ For\ every\ previous\ move\ the\ computer\ makes,\ the\ computer\ compares\ the\ previous\ move's\ output\ with\ the\ solution\r\n\ to\ the\ current\ move's\ output\ with\ the\ previous\ move\r\n
+comment4.params=two\ one
+comment4.target=boolean\ compare(int[],\ int[])
+comment5.params=a
+comment5.target=void\ move(Key)
+numComments=6

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Possibilities
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Possibilities\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=gametype
+comment1.target=Possibilities(int)
+comment2.params=
+comment2.target=int[][]\ getPoss()
+comment3.params=
+comment3.target=void\ render4()
+comment4.params=
+comment4.target=void\ render6()
+comment5.params=
+comment5.target=void\ render8()
+comment6.params=
+comment6.target=void\ shuffle()
+comment7.params=start
+comment7.target=int\ factorial(int)
+numComments=8

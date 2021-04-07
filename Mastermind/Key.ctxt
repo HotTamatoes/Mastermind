@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Key
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Key\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=gametype\ wold
+comment1.target=Key(int,\ greenfoot.World)
+comment2.params=given\ gametype\ wold
+comment2.target=Key(int[],\ int,\ greenfoot.World)
+comment3.params=
+comment3.target=void\ random()
+comment4.params=
+comment4.target=int[]\ getKey()
+numComments=5

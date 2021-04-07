@@ -1,0 +1,69 @@
+The Rules of Mastermind
+
+1.) A key consists of four, six, or eight different colours in a specific order
+
+depending on the gameype you choose
+
+
+2.) You have ten guesses to guess a Key
+
+
+3.) The game gives an output P: x and C: y
+
+
+4.) P: tells you the number of the pieces that are the same colour and place as
+
+a piece in the solution
+
+
+5.) C: tells you the number of pieces that are the same colour but not the same
+
+place as a piece in the solution
+
+
+
+Example outputs:
+
+Solution: RED ORANGE YELLOW GREEN
+
+User's Guess: RED RED RED RED
+
+Output: P: 1 C: 3
+
+One piece is the right colour, right place (leftmost RED)
+
+Three pieces are the right colour but the wrong place (other REDs)
+
+
+
+Solution: RED ORANGE YELLOW GREEN
+
+User's Guess: GREEN ORANGE YELLOW RED
+
+Output: P: 2 C: 2
+
+Two pieces are the right colour, right place (ORANGE, YELLOW)
+
+Two pieces are the right colour, wrong place (GREEN, RED)
+
+
+
+Solution: RED ORANGE YELLOW GREEN
+
+User's Guess: LIGHTBLUE BLUE PURPLE BLACK
+
+Output: P: 0 C: 0
+
+None of the pieces are the right colour
+
+
+
+Solution: RED ORANGE YELLOW GREEN
+
+User's Guess: RED RED ORANGE ORANGE
+
+Output: P: 1 C: 3
+
+One of the pieces is the right colour, right place (leftmost RED)
+
+Three of the pieces are the right colour, wrong place (rightmost RED, both ORANGE)
